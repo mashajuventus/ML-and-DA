@@ -164,8 +164,8 @@ def from_file():
   print(classification_report(realSent, predSent))
 
 if __name__ == '__main__':
-  # while True:
-  #   tweet_text = input()
-  #   one_tweet(tweet_text)
+  while True:
+    tweet_text = input()
+    one_tweet(tweet_text)
 
-  from_file()
+  # from_file()
